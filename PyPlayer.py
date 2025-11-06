@@ -1,7 +1,8 @@
 import tkinter as tk
 
 root = tk.Tk()
-root.title("PyPlayer")
+version_number = 0.1
+root.title(f"PyPlayer | Version: {version_number}")
 root.geometry("210x400")
 
 title_label = tk.Label(root, text="PyPlayer", font=("Helvetica", 16))
