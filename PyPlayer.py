@@ -1,4 +1,5 @@
 import tkinter as tk
+from pygame import mixer as mxr
 
 root = tk.Tk()
 version_number = 0.1
